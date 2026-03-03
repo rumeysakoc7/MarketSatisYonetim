@@ -84,8 +84,8 @@ becerilerinin pratiği yapılmıştır.
 
 Uygulama ekran görüntülerini görmek için aşağıdaki bağlantılara tıklayabilirsiniz:
 
--  Giriş Ekranı → [Görüntüle](Screenshots/giris.png)
--  Ana Menü → [Görüntüle](Screenshots/anamenu.png)
--  Ürün Yönetimi → [Görüntüle](Screenshots/urunYonetimi.png)
--  Sipariş İşlemleri → [Görüntüle](Screenshots/siparis.png)
--  Sipariş Detayları → [Görüntüle](Screenshots/siparisDetaylari.png)
+-  Giriş Ekranı → [Görüntüle](giris.png)
+-  Ana Menü → [Görüntüle](anamenu.png)
+-  Ürün Yönetimi → [Görüntüle](urunYonetimi.png)
+-  Sipariş İşlemleri → [Görüntüle](siparis.png)
+-  Sipariş Detayları → [Görüntüle](siparisDetaylari.png)
