@@ -76,4 +76,16 @@ becerilerinin pratiği yapılmıştır.
 
 1. MySQL üzerinde yeni bir veritabanı oluşturun.  
 2. `sql.script.sql` dosyasını çalıştırın.  
-3. `Baglanti.java` dosyasındaki bağlantı ayarlarını kendi MySQL bilgilerinize göre düzenleyin.  
+3. `Baglanti.java` dosyasındaki bağlantı ayarlarını kendi MySQL bilgilerinize göre düzenleyin.
+
+---
+
+##  Ekran Görüntüleri
+
+Uygulama ekran görüntülerini görmek için aşağıdaki bağlantılara tıklayabilirsiniz:
+
+-  Giriş Ekranı → [Görüntüle](Screenshots/giris.png)
+-  Ana Menü → [Görüntüle](Screenshots/anamenu.png)
+-  Ürün Yönetimi → [Görüntüle](Screenshots/urunYonetimi.png)
+-  Sipariş İşlemleri → [Görüntüle](Screenshots/siparis.png)
+-  Sipariş Detayları → [Görüntüle](Screenshots/siparisDetaylari.png)
