@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Kategoriler">
+  <grid id="27dc6" binding="Kategoripanel" layout-manager="GridLayoutManager" row-count="8" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="596" height="510"/>
+    </constraints>
+    <properties>
+      <background color="-5721923"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <vspacer id="ebad3">
+        <constraints>
+          <grid row="2" column="3" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="4c01f" class="javax.swing.JTextField" binding="textaciklama">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2300429"/>
+        </properties>
+      </component>
+      <component id="8ce18" class="javax.swing.JTextField" binding="textadi">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2300429"/>
+        </properties>
+      </component>
+      <component id="c3d82" class="javax.swing.JLabel" binding="kategoriad">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="KATEGORİ ADI:"/>
+        </properties>
+      </component>
+      <component id="abd82" class="javax.swing.JLabel" binding="Aciklama">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="AÇIKLAMA:"/>
+        </properties>
+      </component>
+      <component id="b36e5" class="javax.swing.JButton" binding="buttonekle">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550496"/>
+          <text value="EKLE"/>
+        </properties>
+      </component>
+      <component id="61c8f" class="javax.swing.JButton" binding="buttonsil">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550496"/>
+          <text value="SİL"/>
+        </properties>
+      </component>
+      <component id="6d31b" class="javax.swing.JButton" binding="buttonguncelle">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550496"/>
+          <text value="GÜNCELLE"/>
+        </properties>
+      </component>
+      <component id="17584" class="javax.swing.JLabel" binding="kategorisayfa">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="KATEGORİ YÖNETİM SAYFASI"/>
+        </properties>
+      </component>
+      <scrollpane id="1aa52">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="2005f" class="javax.swing.JTable" binding="tablekategori">
+            <constraints/>
+            <properties>
+              <background color="-2300429"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="5e5ee" class="javax.swing.JButton" binding="buttontemizle">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550496"/>
+          <text value="TEMİZLE"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

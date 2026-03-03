@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UrunlerYonetimi">
+  <grid id="27dc6" binding="UrunYonetimi" layout-manager="GridLayoutManager" row-count="13" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="536" height="428"/>
+    </constraints>
+    <properties>
+      <background color="-3353375"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="2a2e6" class="javax.swing.JTextField" binding="texturunad">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="62f9e" class="javax.swing.JComboBox" binding="comboBoxfirma">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c0330" class="javax.swing.JComboBox" binding="comboBoxkategori">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d4a03" class="javax.swing.JSpinner" binding="spinnerstokmiktar">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="9c5cf" class="javax.swing.JTextField" binding="textsatisfiyat">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e280f" class="javax.swing.JTextField" binding="textalisfiyat">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1052417"/>
+        </properties>
+      </component>
+      <component id="f53f" class="javax.swing.JLabel" binding="labelUrunAd">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-14934754"/>
+          <text value="ÜRÜN ADI:"/>
+        </properties>
+      </component>
+      <component id="4cab4" class="javax.swing.JLabel" binding="kategorismi">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-14934754"/>
+          <text value="KATEGORİ İSMİ:"/>
+        </properties>
+      </component>
+      <component id="ae0d4" class="javax.swing.JLabel" binding="Firmaismi">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-14934754"/>
+          <text value="FİRMA İSMİ:"/>
+        </properties>
+      </component>
+      <component id="8da6" class="javax.swing.JLabel" binding="Stokmiktar">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-14934754"/>
+          <text value="STOK MİKTARI:"/>
+        </properties>
+      </component>
+      <component id="bbaf4" class="javax.swing.JLabel" binding="SatisFiyat">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-14934754"/>
+          <text value="SATIŞ FİYATI:"/>
+        </properties>
+      </component>
+      <component id="cf775" class="javax.swing.JLabel" binding="AlisFiyat">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-14934754"/>
+          <text value="ALIŞ FİYATI:"/>
+        </properties>
+      </component>
+      <component id="52322" class="javax.swing.JButton" binding="buttonEkle">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550496"/>
+          <text value="EKLE"/>
+        </properties>
+      </component>
+      <component id="3beb4" class="javax.swing.JButton" binding="buttonSil">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550496"/>
+          <text value="SİL"/>
+        </properties>
+      </component>
+      <component id="697d8" class="javax.swing.JButton" binding="buttonGuncelle">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550496"/>
+          <text value="GÜNCELLE"/>
+        </properties>
+      </component>
+      <scrollpane id="6e37">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="8869" class="javax.swing.JTable" binding="tableUrun">
+            <constraints/>
+            <properties>
+              <background color="-5721923"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="e1ee3" class="javax.swing.JButton" binding="buttontemizle">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550496"/>
+          <text value="TEMİZLE"/>
+        </properties>
+      </component>
+      <vspacer id="33ef4">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="8f6dc">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>

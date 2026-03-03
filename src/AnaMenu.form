@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Anamenu">
+  <grid id="27dc6" binding="Anamenu" layout-manager="GridLayoutManager" row-count="22" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="603" height="610"/>
+    </constraints>
+    <properties>
+      <background color="-5721923"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="cf335" class="javax.swing.JButton" binding="buttonkategoriler">
+        <constraints>
+          <grid row="20" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550496"/>
+          <text value="Kategori Yönetimi"/>
+        </properties>
+      </component>
+      <component id="65bb0" class="javax.swing.JButton" binding="buttonmusteriler">
+        <constraints>
+          <grid row="20" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550496"/>
+          <text value="Müşteri Bilgileri"/>
+        </properties>
+      </component>
+      <component id="92eb3" class="javax.swing.JButton" binding="siparisDetaylarıButton">
+        <constraints>
+          <grid row="15" column="0" row-span="5" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550496"/>
+          <text value="Sipariş Detayları"/>
+        </properties>
+      </component>
+      <component id="3e41d" class="javax.swing.JButton" binding="TedarikciButton">
+        <constraints>
+          <grid row="6" column="2" row-span="9" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550496"/>
+          <text value="Tedarikçi Yönetimi"/>
+        </properties>
+      </component>
+      <component id="95af1" class="javax.swing.JButton" binding="buttonCalisanlar">
+        <constraints>
+          <grid row="17" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550496"/>
+          <text value="Çalışan Bilgileri"/>
+        </properties>
+      </component>
+      <component id="74b1" class="javax.swing.JButton" binding="siparislerButton">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550496"/>
+          <text value="Siparişler"/>
+        </properties>
+      </component>
+      <vspacer id="d7c6b">
+        <constraints>
+          <grid row="21" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="690b9">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="a9ebd" class="javax.swing.JButton" binding="buttonurunler">
+        <constraints>
+          <grid row="1" column="0" row-span="9" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550496"/>
+          <text value="Ürünler Yönetimi"/>
+        </properties>
+      </component>
+      <component id="5c9cd" class="javax.swing.JButton" binding="urunAlisButton">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550496"/>
+          <text value="Ürün Tedarikçiden Alış"/>
+        </properties>
+      </component>
+      <component id="4e66" class="javax.swing.JLabel" binding="anamenu">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1769437"/>
+          <text value="ANA MENÜ"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

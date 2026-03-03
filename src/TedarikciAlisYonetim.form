@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="TedarikciAlisYonetim">
+  <grid id="27dc6" binding="Tedarikcialis" layout-manager="GridLayoutManager" row-count="14" column-count="10" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="712" height="543"/>
+    </constraints>
+    <properties>
+      <background color="-5721923"/>
+      <foreground color="-3353375"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="6341b" class="javax.swing.JList" binding="listurunsepet">
+        <constraints>
+          <grid row="5" column="7" row-span="5" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2300429"/>
+        </properties>
+      </component>
+      <component id="cc8d2" class="javax.swing.JLabel" binding="toplammaliyet">
+        <constraints>
+          <grid row="10" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="TOPLAM MALİYET:"/>
+        </properties>
+      </component>
+      <component id="6006f" class="javax.swing.JButton" binding="buttonsatinal">
+        <constraints>
+          <grid row="12" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550496"/>
+          <text value="SATIN AL"/>
+        </properties>
+      </component>
+      <component id="7cdff" class="javax.swing.JButton" binding="buttontemizle">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550496"/>
+          <text value="TEMİZLE"/>
+        </properties>
+      </component>
+      <component id="f007e" class="javax.swing.JButton" binding="buttonsepeteekle">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550496"/>
+          <text value="SEPETE EKLE"/>
+        </properties>
+      </component>
+      <component id="7671b" class="javax.swing.JTextField" binding="texttedarikci">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2300429"/>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="4e2af" class="javax.swing.JSpinner" binding="spinnermiktar">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550496"/>
+        </properties>
+      </component>
+      <component id="54599" class="javax.swing.JTextField" binding="textalisfiyat">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2300429"/>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="38ef3" class="javax.swing.JTextField" binding="texturunad">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2300429"/>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="c952b" class="javax.swing.JLabel" binding="tedarikci">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="TEDARİKÇİ:"/>
+        </properties>
+      </component>
+      <component id="bd8c4" class="javax.swing.JLabel" binding="miktar">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="MİKTAR:"/>
+        </properties>
+      </component>
+      <component id="4bfd6" class="javax.swing.JLabel" binding="alisfiyat">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ALIŞ FİYATI:"/>
+        </properties>
+      </component>
+      <component id="351ce" class="javax.swing.JTextField" binding="texturunara">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2300429"/>
+          <foreground color="-13947600"/>
+        </properties>
+      </component>
+      <component id="1d78f" class="javax.swing.JLabel" binding="urunara">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ürün Ara:"/>
+        </properties>
+      </component>
+      <component id="b2ffe" class="javax.swing.JLabel" binding="urunsepet">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="SEÇİLEN ÜRÜNLER"/>
+        </properties>
+      </component>
+      <component id="6cb44" class="javax.swing.JLabel" binding="urunad">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ÜRÜN ADI:"/>
+        </properties>
+      </component>
+      <component id="381f4" class="javax.swing.JTextField" binding="texttoplammaliyet">
+        <constraints>
+          <grid row="10" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2300429"/>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <hspacer id="cf497">
+        <constraints>
+          <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="ea1d7" class="javax.swing.JButton" binding="buttonurunsil">
+        <constraints>
+          <grid row="11" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3550496"/>
+          <text value="SEPETTEN ÜRÜN SİL"/>
+        </properties>
+      </component>
+      <hspacer id="72730">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="5abba">
+        <constraints>
+          <grid row="3" column="8" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="7a129">
+        <constraints>
+          <grid row="13" column="7" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="d5869">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="a7847">
+        <constraints>
+          <grid row="2" column="9" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <scrollpane id="ade35">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="7" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="5f0dc" class="javax.swing.JTable" binding="tabletedarikci">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
